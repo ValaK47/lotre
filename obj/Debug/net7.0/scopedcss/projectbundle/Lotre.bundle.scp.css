@@ -1,15 +1,31 @@
 /* _content/Lotre/Pages/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
+body[b-xcato7kmzn]
+{
+  background-color: #0F002F;
+}
+
+.navbar[b-xcato7kmzn]
+{
+  background-color: #7428F0;
+  display: flex;
+}
 
 a.navbar-brand[b-xcato7kmzn] {
+  color: white;
   white-space: normal;
   text-align: center;
   word-break: break-all;
 }
 
 a[b-xcato7kmzn] {
-  color: #0077cc;
+  color: white;
+}
+
+.nav-link[b-xcato7kmzn]
+{
+  color: white !important;
 }
 
 .btn-primary[b-xcato7kmzn] {
@@ -20,8 +36,8 @@ a[b-xcato7kmzn] {
 
 .nav-pills .nav-link.active[b-xcato7kmzn], .nav-pills .show > .nav-link[b-xcato7kmzn] {
   color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  /* background-color: #1b6ec2; */
+  /* border-color: #1861ac; */
 }
 
 .border-top[b-xcato7kmzn] {
@@ -46,4 +62,12 @@ button.accept-policy[b-xcato7kmzn] {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+}
+
+.container-2[b-xcato7kmzn]
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  
 }
