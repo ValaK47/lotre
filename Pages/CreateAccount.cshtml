@@ -1,0 +1,45 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Lotre - Création de compte";
+}
+<link rel="stylesheet" type="text/css" href="css/createAccount.css">
+
+<div class="text-center">
+    <div class="firstLine">
+        <div class="nameContainer">
+            <label class="label" for="name">Nom</label>
+            <input class="input" type="text" id="nameInput" name="name" placeholder="Boulanger" required minlength="1" maxlength="30"/>
+            <span class="errorSpan">Y'a une erreur lol</span>
+        </div>
+        <div class="firstNameContainer">
+            <label class="label" for="firstName">Prénom</label>
+            <input class="input" type="text" id="firstNameInput" name="name" placeholder="Pierre" required minlength="1" maxlength="30"/>
+            <span class="errorSpan">Y'a une erreur lol</span>
+        </div>
+    </div>
+    <div class="secondLine">
+        <div class="containerMailContainer">
+            <label class="label" for="email">Mail</label>
+            <input class="input" type="email" id="mailInput" name="name" placeholder="supermail@mail.mail" required minlength="1" maxlength="100" />
+            <span class="errorSpan">Y'a une erreur lol</span>
+        </div>
+    </div>
+    <div class="thirdLine">
+        <div class="mdpContainer">
+            <label class="label" for="mdp">Mot de passe</label>
+            <input class="input" type="password" id="mdpInput" name="password" required minlength="8"/>
+            <span class="errorSpan">Y'a une erreur lol</span>
+        </div>
+        <div class="confirmMdpContainer">
+            <label class="label" for="confirmMdp">Confirmation mot de passe</label>
+            <input class="input" type="password" id="confirmMdpInput" name="confirmPassword" required minlength="8" />
+            <span class="errorSpan">Y'a une erreur lol</span>
+        </div>
+    </div>
+    <div class="fourthLine">
+        <div class="btnConfirmContainer">
+            <input type="button" value="Confirmer">
+        </div>
+    </div>
+</div>
